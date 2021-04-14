@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashSet;
 import java.util.Scanner;
 
 public class List {
@@ -29,5 +30,7 @@ public class List {
 
         System.out.println("The average is: " + avg);
         System.out.println("The total is: " + total);
+
+        //List --> HashSet: je kan niet getten in de forloop
     }
 }
