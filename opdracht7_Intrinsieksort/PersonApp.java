@@ -1,10 +1,9 @@
-package opdracht2_hashset;
+package opdracht7_Intrinsieksort;
 
 import java.util.HashSet;
 import java.util.Set;
 
 public class PersonApp {
-
     public static void main(String[] args) {
         Set<Person> persoon = new HashSet<>();
 
@@ -14,10 +13,5 @@ public class PersonApp {
         persoon.add(new Person("Maurice", "Shmitz", Person.Gender.MALE,50,90,160));
 
         persoon.forEach(System.out::println);
-
-        // Wordt uigeprint in alfabetische volgorde
-        // Duplicaten worden uitgeprint
-
     }
-
 }

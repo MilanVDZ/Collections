@@ -1,8 +1,10 @@
+package opdracht1_list;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.List;
 
-public class ListString {
+public class ListStringApp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         List<String> list = new ArrayList<>();

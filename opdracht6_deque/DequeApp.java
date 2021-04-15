@@ -8,9 +8,9 @@ import java.util.List;
 import java.util.ArrayList;
 
 
-public class opdracht6_deque {
+public class DequeApp {
     public static void main(String[] args) {
-        Deque<Person> personen = new ArrayDeque<>();
+        java.util.Deque<Person> personen = new ArrayDeque<>();
 
         personen.offerFirst(new Person("Dirk", "Chef", Person.Gender.MALE));
         personen.offerFirst(new Person("Mark", "Dupuis", Person.Gender.MALE));

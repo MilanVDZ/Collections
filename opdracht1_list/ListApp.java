@@ -1,9 +1,11 @@
+package opdracht1_list;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class List {
+public class ListApp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter five numbers: ");

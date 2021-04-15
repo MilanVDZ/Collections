@@ -1,8 +1,10 @@
+package opdracht4_treeset;
+
 import java.util.NavigableSet;
 import java.util.Scanner;
 import java.util.TreeSet;
 
-public class Treeset {
+public class TreesetApp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter 5 words: ");
